@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/fontanier-exercises/static/css/main.5f361e03.chunk.css",
-    "main.js": "/fontanier-exercises/static/js/main.95a4261f.chunk.js",
-    "main.js.map": "/fontanier-exercises/static/js/main.95a4261f.chunk.js.map",
-    "runtime-main.js": "/fontanier-exercises/static/js/runtime-main.543a268e.js",
-    "runtime-main.js.map": "/fontanier-exercises/static/js/runtime-main.543a268e.js.map",
-    "static/js/2.dc607b17.chunk.js": "/fontanier-exercises/static/js/2.dc607b17.chunk.js",
-    "static/js/2.dc607b17.chunk.js.map": "/fontanier-exercises/static/js/2.dc607b17.chunk.js.map",
-    "index.html": "/fontanier-exercises/index.html",
-    "precache-manifest.69962d19bec7eedc68891c31b7dd68f0.js": "/fontanier-exercises/precache-manifest.69962d19bec7eedc68891c31b7dd68f0.js",
-    "service-worker.js": "/fontanier-exercises/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/fontanier-exercises/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.dc607b17.chunk.js.LICENSE.txt": "/fontanier-exercises/static/js/2.dc607b17.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/fontanier-exercises/static/media/logo.5d5d9eef.svg"
+    "main.css": "/fontanier-exercies/static/css/main.5f361e03.chunk.css",
+    "main.js": "/fontanier-exercies/static/js/main.5c1e03d7.chunk.js",
+    "main.js.map": "/fontanier-exercies/static/js/main.5c1e03d7.chunk.js.map",
+    "runtime-main.js": "/fontanier-exercies/static/js/runtime-main.d33d93bd.js",
+    "runtime-main.js.map": "/fontanier-exercies/static/js/runtime-main.d33d93bd.js.map",
+    "static/js/2.dc607b17.chunk.js": "/fontanier-exercies/static/js/2.dc607b17.chunk.js",
+    "static/js/2.dc607b17.chunk.js.map": "/fontanier-exercies/static/js/2.dc607b17.chunk.js.map",
+    "index.html": "/fontanier-exercies/index.html",
+    "precache-manifest.331ca9d2a669686baf177509e949b745.js": "/fontanier-exercies/precache-manifest.331ca9d2a669686baf177509e949b745.js",
+    "service-worker.js": "/fontanier-exercies/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/fontanier-exercies/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.dc607b17.chunk.js.LICENSE.txt": "/fontanier-exercies/static/js/2.dc607b17.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/fontanier-exercies/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.543a268e.js",
+    "static/js/runtime-main.d33d93bd.js",
     "static/js/2.dc607b17.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.95a4261f.chunk.js"
+    "static/js/main.5c1e03d7.chunk.js"
   ]
 }
