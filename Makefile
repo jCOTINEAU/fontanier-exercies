@@ -1,4 +1,4 @@
 build:
 	docker build -t jfex .
 run:
-	docker-compose run web sh
+	docker-compose run --user $$(id -u) web sh
