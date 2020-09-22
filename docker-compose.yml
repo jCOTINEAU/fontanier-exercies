@@ -3,6 +3,7 @@ version: '2.0'
 services:
   web:
     build: .
+    command: ['tail','-F','/dev/null']
     ports:
     - "3000:3000"
     volumes:
