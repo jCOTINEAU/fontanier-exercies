@@ -2,19 +2,12 @@ import React from 'react';
 import WordBlock from './WordBlock.js';
 
 export default class Question extends React.Component {
-    constructor(props)
-    {
-        super(props)
 
-
-    }
-
-    
 
     renderWb(i)
     {
         return(
-            <WordBlock wb={this.state.question.wbs[i]}>
+            <WordBlock wb={this.props.question.wbs[i]}>
             </WordBlock>
         )
     }
@@ -22,10 +15,13 @@ export default class Question extends React.Component {
 
     render()
     {
+        const list = this.props.question.wbs.map((wb)=>
+            <WordBlock wb={wb} />
+        )
+
         return(
             <div className="Question">
-                {this.renderWb(0)}
-                {this.renderWb(1)}
+                {list}
             </div>
 
 

@@ -16,8 +16,16 @@ class App extends React.Component{
               'value': "c'est",
             },
             {
-              'value': 'un'
-            }
+              'value': 'le',
+            },{
+              'value': "chat",
+              'trad': 'ねこ'
+            },{
+              'value': "de",
+            },{
+              'value': "link",
+              'trad': 'りンク'
+            },
           ]
         }
       ]
@@ -34,6 +42,3 @@ class App extends React.Component{
 }
 
 export default App;
-this.state={
-  question: this.props.question
-}

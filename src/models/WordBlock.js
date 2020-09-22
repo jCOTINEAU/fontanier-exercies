@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-export default class WordBlock extends React.Component{
+export default function WordBlock(props)
+{
+  const [s,setS] =  useState(true)
+  return(
+    <button className='wordBlock' onMouseLeave={()=>{
+      setS(!s)
+    }} onMouseEnter={()=>{
+      setS(!s)
 
-  render()
-  {
-      return(
-        <button className='wordBlock' onClick={this.props.onClick}>
-            {this.props.wb.value}
-        </button>
+    }}>
+        {s? props.wb.value:props.wb.trad??props.wb.value}
+    </button>
 
-      )
-  }
-
+  )
 }
