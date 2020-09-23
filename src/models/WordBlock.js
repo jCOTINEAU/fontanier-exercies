@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { useContext } from 'react';
 import {displayKanjiContext} from '../contexts/KanjiContext'
-import {displayColor, displayColorContext} from '../contexts/ColorContext'
+import {displayColorContext} from '../contexts/ColorContext'
 
 export default function WordBlock(props)
 {
-  const {color, setColor} = useContext(displayColorContext);
-  const {kanji,toggleKanji} = useContext(displayKanjiContext)
+  const {color} = useContext(displayColorContext);
+  const {kanji} = useContext(displayKanjiContext)
   const [displayTrad,setDisplayTrad] =  useState(false)
   
   let toDisplay=props.wb.value;
@@ -28,9 +28,8 @@ export default function WordBlock(props)
     toDisplay=props.wb.value
   }
   
-
   return(
-    <button className='wordBlock' style={{backgroundColor:color?props.wb.color:"white"}}
+    <button className='wordBlock' style={{backgroundColor:color?props.wb.color:"-interal-light-dark"}}
     onMouseLeave={()=>{
       setDisplayTrad(!displayTrad)
     }} onMouseEnter={()=>{
