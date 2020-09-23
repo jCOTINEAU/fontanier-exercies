@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fontanier-exercies/precache-manifest.015ec570dfe2bf5d9bcca46b029b2964.js"
+  "/fontanier-exercies/precache-manifest.875ae170402356e6e5080bfc31d2c39f.js"
 );
 
 self.addEventListener('message', (event) => {
