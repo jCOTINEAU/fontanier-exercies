@@ -5,7 +5,7 @@ function KanjiToggler() {
   const {kanji, toggleKanji}= React.useContext(displayKanjiContext);
 
   return (
-        <button
+        <button className='toggler'
           onClick={
             () => toggleKanji(!kanji)
           }>

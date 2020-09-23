@@ -5,7 +5,7 @@ function ColorToggler() {
   const {color, toggleColor}= React.useContext(displayColorContext);
 
   return (
-        <button
+        <button className='toggler'
           onClick={
             () => toggleColor(!color)
           }>
