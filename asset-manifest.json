@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/fontanier-exercies/static/css/main.1588a12c.chunk.css",
-    "main.js": "/fontanier-exercies/static/js/main.f9581209.chunk.js",
-    "main.js.map": "/fontanier-exercies/static/js/main.f9581209.chunk.js.map",
+    "main.js": "/fontanier-exercies/static/js/main.b6f3ef9f.chunk.js",
+    "main.js.map": "/fontanier-exercies/static/js/main.b6f3ef9f.chunk.js.map",
     "runtime-main.js": "/fontanier-exercies/static/js/runtime-main.d33d93bd.js",
     "runtime-main.js.map": "/fontanier-exercies/static/js/runtime-main.d33d93bd.js.map",
-    "static/js/2.db4ef428.chunk.js": "/fontanier-exercies/static/js/2.db4ef428.chunk.js",
-    "static/js/2.db4ef428.chunk.js.map": "/fontanier-exercies/static/js/2.db4ef428.chunk.js.map",
+    "static/js/2.d23c8253.chunk.js": "/fontanier-exercies/static/js/2.d23c8253.chunk.js",
+    "static/js/2.d23c8253.chunk.js.map": "/fontanier-exercies/static/js/2.d23c8253.chunk.js.map",
     "index.html": "/fontanier-exercies/index.html",
-    "precache-manifest.a321d238f669d49577fd1f9c3b3b5e13.js": "/fontanier-exercies/precache-manifest.a321d238f669d49577fd1f9c3b3b5e13.js",
+    "precache-manifest.015ec570dfe2bf5d9bcca46b029b2964.js": "/fontanier-exercies/precache-manifest.015ec570dfe2bf5d9bcca46b029b2964.js",
     "service-worker.js": "/fontanier-exercies/service-worker.js",
     "static/css/main.1588a12c.chunk.css.map": "/fontanier-exercies/static/css/main.1588a12c.chunk.css.map",
-    "static/js/2.db4ef428.chunk.js.LICENSE.txt": "/fontanier-exercies/static/js/2.db4ef428.chunk.js.LICENSE.txt"
+    "static/js/2.d23c8253.chunk.js.LICENSE.txt": "/fontanier-exercies/static/js/2.d23c8253.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d33d93bd.js",
-    "static/js/2.db4ef428.chunk.js",
+    "static/js/2.d23c8253.chunk.js",
     "static/css/main.1588a12c.chunk.css",
-    "static/js/main.f9581209.chunk.js"
+    "static/js/main.b6f3ef9f.chunk.js"
   ]
 }
