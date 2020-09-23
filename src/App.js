@@ -8,7 +8,7 @@ import KanjiToggler from './models/KanjiToggler';
 
 export default function App(){
 
-    const [questions,setQuestions]=React.useState([
+    const [questions]=React.useState([
       {
         'module': 'no',
         'id':1,
