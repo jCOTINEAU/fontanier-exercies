@@ -29,7 +29,7 @@ export default function WordBlock(props)
   }
   
   return(
-    <button className='wordBlock' style={{backgroundColor:color?props.wb.color:"-interal-light-dark"}}
+    <button className='wordBlock' style={{backgroundColor:color?props.wb.color:"LightGray"}}
     onMouseLeave={()=>{
       setDisplayTrad(!displayTrad)
     }} onMouseEnter={()=>{

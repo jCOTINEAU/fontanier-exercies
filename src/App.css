@@ -40,4 +40,9 @@
 
 .wordBlock {
   margin-right: 5px;
+  background-color: lightgray;
+}
+
+.toggler{
+  background-color: lightgray;
 }
