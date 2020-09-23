@@ -1,44 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
+import {displayKanjiContext} from './contexts/KanjiContext'
+import {displayColorContext} from './contexts/ColorContext'
 import Question from './models/Question'
+import ColorToggler from './models/ColorToggler';
+import KanjiToggler from './models/KanjiToggler';
 
-class App extends React.Component{
-  constructor(props){
-    super(props)
+export default function App(){
 
-    this.state={
-      questions: [
-        {
-          'module': 'no',
-          'id':1,
-          'wbs': [
-            {
-              'value': "c'est",
+    const [questions,setQuestions]=React.useState([
+      {
+        'module': 'no',
+        'id':1,
+        'wbs': [
+          {
+            'value': "c'est",
+          },
+          {
+            'value': 'le',
+          },{
+            'value': "chat",
+            'color': 'green',
+            'trad': {
+              'kana':'ねこ',
+              'kanji':'猫'
             },
+          },{
+            'value': "de",
+          },{
+            'value': "link",
+            'color': 'yellow',
+            'trad':
             {
-              'value': 'le',
-            },{
-              'value': "chat",
-              'trad': 'ねこ'
-            },{
-              'value': "de",
-            },{
-              'value': "link",
-              'trad': 'りンク'
+              'kana':'りンク' 
             },
-          ]
-        }
-      ]
-    }
-  }
+          },
+        ]
+      }
+    ])
 
-  render()
-  {
-    return (
-      <Question question={this.state.questions[0]}/>
+    const [color, toggleColor] = useState(false);
+    const value = { color, toggleColor };
 
+    const [kanji , toggleKanji] = useState(false);
+    const valueKanji = {kanji, toggleKanji};
+
+    return(
+     <displayKanjiContext.Provider value={valueKanji}>
+      <displayColorContext.Provider value={value}>
+        <div>
+          <ColorToggler> </ColorToggler>
+          <KanjiToggler> </KanjiToggler>
+        </div>
+        <div>
+          <Question question={questions[0]}/>
+        </div>
+      </displayColorContext.Provider>
+    </displayKanjiContext.Provider>         
     );
-  }
+  
 }
 
-export default App;
