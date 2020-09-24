@@ -5,6 +5,7 @@ import {displayColorContext} from './contexts/ColorContext'
 import Question from './models/Question'
 import ColorToggler from './models/ColorToggler';
 import KanjiToggler from './models/KanjiToggler';
+import 'fontsource-roboto';
 
 export default function App(){
 
@@ -29,7 +30,7 @@ export default function App(){
             'value': "de",
           },{
             'value': "link",
-            'color': 'yellow',
+            'color': 'red',
             'trad':
             {
               'kana':'りンク' 
