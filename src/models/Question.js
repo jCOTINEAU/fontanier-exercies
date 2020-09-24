@@ -1,6 +1,5 @@
 import React from 'react';
 import WordBlock from './WordBlock.js';
-import { makeStyles } from '@material-ui/core/styles';
 
 export default class Question extends React.Component {
 
