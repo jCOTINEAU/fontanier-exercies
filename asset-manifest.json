@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/fontanier-exercies/static/css/main.2400c9b2.chunk.css",
-    "main.js": "/fontanier-exercies/static/js/main.309bbb4e.chunk.js",
-    "main.js.map": "/fontanier-exercies/static/js/main.309bbb4e.chunk.js.map",
+    "main.css": "/fontanier-exercies/static/css/main.20d08b3b.chunk.css",
+    "main.js": "/fontanier-exercies/static/js/main.b4e40167.chunk.js",
+    "main.js.map": "/fontanier-exercies/static/js/main.b4e40167.chunk.js.map",
     "runtime-main.js": "/fontanier-exercies/static/js/runtime-main.d33d93bd.js",
     "runtime-main.js.map": "/fontanier-exercies/static/js/runtime-main.d33d93bd.js.map",
-    "static/js/2.d23c8253.chunk.js": "/fontanier-exercies/static/js/2.d23c8253.chunk.js",
-    "static/js/2.d23c8253.chunk.js.map": "/fontanier-exercies/static/js/2.d23c8253.chunk.js.map",
+    "static/css/2.30fef30f.chunk.css": "/fontanier-exercies/static/css/2.30fef30f.chunk.css",
+    "static/js/2.884416a6.chunk.js": "/fontanier-exercies/static/js/2.884416a6.chunk.js",
+    "static/js/2.884416a6.chunk.js.map": "/fontanier-exercies/static/js/2.884416a6.chunk.js.map",
     "index.html": "/fontanier-exercies/index.html",
-    "precache-manifest.875ae170402356e6e5080bfc31d2c39f.js": "/fontanier-exercies/precache-manifest.875ae170402356e6e5080bfc31d2c39f.js",
+    "precache-manifest.c5eb4944732edb05aadd06cc4fdfd572.js": "/fontanier-exercies/precache-manifest.c5eb4944732edb05aadd06cc4fdfd572.js",
     "service-worker.js": "/fontanier-exercies/service-worker.js",
-    "static/css/main.2400c9b2.chunk.css.map": "/fontanier-exercies/static/css/main.2400c9b2.chunk.css.map",
-    "static/js/2.d23c8253.chunk.js.LICENSE.txt": "/fontanier-exercies/static/js/2.d23c8253.chunk.js.LICENSE.txt"
+    "static/css/2.30fef30f.chunk.css.map": "/fontanier-exercies/static/css/2.30fef30f.chunk.css.map",
+    "static/css/main.20d08b3b.chunk.css.map": "/fontanier-exercies/static/css/main.20d08b3b.chunk.css.map",
+    "static/js/2.884416a6.chunk.js.LICENSE.txt": "/fontanier-exercies/static/js/2.884416a6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/fontanier-exercies/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.d33d93bd.js",
-    "static/js/2.d23c8253.chunk.js",
-    "static/css/main.2400c9b2.chunk.css",
-    "static/js/main.309bbb4e.chunk.js"
+    "static/css/2.30fef30f.chunk.css",
+    "static/js/2.884416a6.chunk.js",
+    "static/css/main.20d08b3b.chunk.css",
+    "static/js/main.b4e40167.chunk.js"
   ]
 }
