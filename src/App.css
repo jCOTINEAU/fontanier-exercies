@@ -38,11 +38,12 @@
   }
 }
 
-.wordBlock {
-  margin-right: 5px;
-  background-color: lightgray;
+.Question{
+  margin: 5;
+  padding: 5;
+
 }
 
-.toggler{
-  background-color: lightgray;
+.wordblock {
+  margin: 5
 }

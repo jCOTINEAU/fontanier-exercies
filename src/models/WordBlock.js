@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import { useContext } from 'react';
 import {displayKanjiContext} from '../contexts/KanjiContext'
 import {displayColorContext} from '../contexts/ColorContext'
+import Button from '@material-ui/core/Button'
 
 export default function WordBlock(props)
 {
+  
+
   const {color} = useContext(displayColorContext);
   const {kanji} = useContext(displayKanjiContext)
   const [displayTrad,setDisplayTrad] =  useState(false)
@@ -27,9 +30,9 @@ export default function WordBlock(props)
   }else{
     toDisplay=props.wb.value
   }
-  
+
   return(
-    <button className='wordBlock' style={{backgroundColor:color?props.wb.color:"LightGray"}}
+    <Button className='wordblock' style={{backgroundColor:color?props.wb.color??'lightgray':'lightgray'}}
     onMouseLeave={()=>{
       setDisplayTrad(!displayTrad)
     }} onMouseEnter={()=>{
@@ -37,7 +40,7 @@ export default function WordBlock(props)
 
     }}>
         {toDisplay}
-    </button>
+    </Button>
 
   )
 }
