@@ -44,7 +44,7 @@ export default function App() {
             <Button color="secondary" onClick={()=>{
               setActiveQr(Math.abs(--activeQr%questions.length))
             }}>
-              précedent
+              précédent
             </Button>
             </Grid>
             <Grid item>

@@ -36,6 +36,9 @@ export default function WordBlock(props) {
       }} onMouseEnter={() => {
         setDisplayTrad(!displayTrad)
 
+      }}
+      onClick={()=>{
+        navigator.clipboard.writeText(toDisplay)
       }}>
       {toDisplay}
     </Button>

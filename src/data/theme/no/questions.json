@@ -25,7 +25,7 @@
           "value": "link",
           "color": "red",
           "trad": {
-            "kana": "りンク"
+            "kana": "リンク"
           }
         }
       ]
@@ -61,7 +61,7 @@
     },
     {
       "module": "no",
-      "id": "３",
+      "id": 3,
       "wbs": [
         {
           "value": "ce"
@@ -79,14 +79,80 @@
           }
         },
         {
-          "value": "du",
-          "trad": {
-            "kana": "とき",
-            "kanji": "時"
-          }
+          "value": "du"
         },
         {
           "value": "temple",
+          "trad": {
+            "kana": "シンデン",
+            "kanji": "神殿"
+          }
+        }
+      ]
+    },{
+      "module": "no",
+      "id": 4,
+      "wbs":[
+        {
+          "value": "c'est"
+        },
+        {
+          "value": "l'eau",
+          "trad":{
+            "kana":"みず",
+            "kanji":"水"
+          }
+        },
+        {
+          "value":"de"
+        },
+        {
+          "value":"la"
+        },
+        {
+          "value":"rivière",
+          "trad":{
+            "kana":"かわ",
+            "kanji":"川"
+          }
+        },
+        {
+          "value":"des"
+        },{
+          "value":"zoras",
+          "trad":{
+            "kana":"ゾーラ"
+          }
+        }
+      ]
+    },{
+      "module": "no",
+      "id": 5,
+      "wbs": [
+        {
+          "value": "c'est"
+        },
+        {
+          "value": "l'ocarina",
+          "trad": {
+            "kana": "オカリナ"
+          }
+        },
+        {
+          "value": "du"
+        },
+        {
+          "value": "temple",
+          "trad": {
+            "kana": "シンデン",
+            "kanji": "神殿"
+          }
+        },
+        {
+          "value": "du"
+        },
+        {
+          "value": "temps",
           "trad": {
             "kana": "とき",
             "kanji": "時"
@@ -96,3 +162,4 @@
     }
   ]
 }
+

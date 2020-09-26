@@ -6,7 +6,7 @@ export default function Response(props)
 {
     
     const list = props.response.rbs.map((rb,index)=>
-    <ResponseBlock key={props.response.id+index} rb={rb} />
+    <ResponseBlock key={props.response.id*100+index} rb={rb} />
 )
     return (
         <Grid container justify="center" spacing="2" allignItems="center">
