@@ -7,9 +7,9 @@ function ColorToggler() {
   const {color, toggleColor}= React.useContext(displayColorContext);
 
   return (
-    <FormControlLabel
+    <FormControlLabel labelPlacement="start"
     control={<Switch size="small" checked={color} onChange={(event) =>{toggleColor(event.target.checked)}} />}
-    label={"color :"+color} labelPlacement='top'
+    label={"coloration syntaxique :".concat(color?'on':'off')}
   />
  
   );

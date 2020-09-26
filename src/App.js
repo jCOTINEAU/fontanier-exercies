@@ -1,64 +1,68 @@
 import React, { useState } from 'react';
 import './App.css';
-import {displayKanjiContext} from './contexts/KanjiContext'
-import {displayColorContext} from './contexts/ColorContext'
+import { displayKanjiContext } from './contexts/KanjiContext'
+import { displayColorContext } from './contexts/ColorContext'
 import Question from './models/Question'
+import Response from './models/Response'
 import ColorToggler from './models/ColorToggler';
 import KanjiToggler from './models/KanjiToggler';
 import 'fontsource-roboto';
+import Grid from '@material-ui/core/Grid';
+import data from './data/theme/no/questions.json';
+import responseData from './data/theme/no/response.json';
+import Button from '@material-ui/core/Button'
 
-export default function App(){
+export default function App() {
 
-    const [questions]=React.useState([
-      {
-        'module': 'no',
-        'id':1,
-        'wbs': [
-          {
-            'value': "c'est",
-          },
-          {
-            'value': 'le',
-          },{
-            'value': "chat",
-            'color': 'green',
-            'trad': {
-              'kana':'ねこ',
-              'kanji':'猫'
-            },
-          },{
-            'value': "de",
-          },{
-            'value': "link",
-            'color': 'red',
-            'trad':
-            {
-              'kana':'りンク' 
-            },
-          },
-        ]
-      }
-    ])
+  const [questions] = React.useState(data.questions)
+  const [responses] = React.useState(responseData.responses)
+  let [activeQr,setActiveQr] = React.useState(0);
 
-    const [color, toggleColor] = useState(false);
-    const value = { color, toggleColor };
+  const [color, toggleColor] = useState(false);
+  const value = { color, toggleColor };
 
-    const [kanji , toggleKanji] = useState(false);
-    const valueKanji = {kanji, toggleKanji};
+  const [kanji, toggleKanji] = useState(false);
+  const valueKanji = { kanji, toggleKanji };
 
-    return(
-     <displayKanjiContext.Provider value={valueKanji}>
-      <displayColorContext.Provider value={value}>
-        <div>
-          <ColorToggler> </ColorToggler>
-          <KanjiToggler> </KanjiToggler>
-        </div>
-        <div>
-          <Question question={questions[0]}/>
-        </div>
-      </displayColorContext.Provider>
-    </displayKanjiContext.Provider>         
-    );
-  
+
+  return (
+    <div>
+      <displayKanjiContext.Provider value={valueKanji}>
+        <displayColorContext.Provider value={value}>
+          <Grid container jystify="center">
+
+          </Grid>
+          <Grid container justify="center">
+            <Grid item>
+              <ColorToggler> </ColorToggler>
+            </Grid>
+            <Grid item>
+              <KanjiToggler> </KanjiToggler>
+            </Grid>
+          </Grid>
+          <Question question={questions[activeQr]} />
+          <Response response={responses[activeQr]}></Response>
+          <Grid container justify="center">
+            <Grid item>
+            <Button onClick={()=>{
+              setActiveQr(Math.abs(--activeQr%questions.length))
+            }}>
+              
+              précedent
+            </Button>
+            </Grid>
+            <Grid item>
+            <Button onClick={()=>{
+              setActiveQr((++activeQr%questions.length))
+            }}>
+              suivant
+            </Button>
+            </Grid>
+          </Grid>
+        </displayColorContext.Provider>
+      </displayKanjiContext.Provider>
+    </div>
+  );
+
 }
 

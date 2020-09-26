@@ -9,7 +9,7 @@ function KanjiToggler() {
   return (
     <FormControlLabel
     control={<Switch size="small" checked={kanji} onChange={(event) =>{toggleKanji(event.target.checked)}} />}
-    label={kanji?'漢字':'かんじ'} labelPlacement='top'
+    label={kanji?'漢字':'かんじ'} labelPlacement='start'
   /> 
   );
 }
