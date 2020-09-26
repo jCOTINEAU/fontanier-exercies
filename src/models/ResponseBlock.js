@@ -24,7 +24,7 @@ export default function ResponseBlock(props)
     }
 
     return(
-        <Grid item xs="1">
+        <Grid item xs="3" md="1">
         <Input style = {{backgroundColor: toDisplay}} onChange={(event)=>{
             setlValue(event.target.value)
         }} />

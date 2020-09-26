@@ -29,9 +29,6 @@ export default function App() {
     <div>
       <displayKanjiContext.Provider value={valueKanji}>
         <displayColorContext.Provider value={value}>
-          <Grid container jystify="center">
-
-          </Grid>
           <Grid container justify="center">
             <Grid item>
               <ColorToggler> </ColorToggler>
@@ -44,15 +41,14 @@ export default function App() {
           <Response response={responses[activeQr]}></Response>
           <Grid container justify="center">
             <Grid item>
-            <Button onClick={()=>{
+            <Button color="secondary" onClick={()=>{
               setActiveQr(Math.abs(--activeQr%questions.length))
             }}>
-              
               précedent
             </Button>
             </Grid>
             <Grid item>
-            <Button onClick={()=>{
+            <Button color="primary" onClick={()=>{
               setActiveQr((++activeQr%questions.length))
             }}>
               suivant
