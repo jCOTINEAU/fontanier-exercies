@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c83c08be29d77078c0416b58809c3f9",
+    "revision": "92e6b48dabfd1c0b1738d8eed68dea27",
     "url": "/fontanier-exercies/index.html"
   },
   {
