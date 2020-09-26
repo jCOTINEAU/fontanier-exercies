@@ -7,8 +7,8 @@ export default class Question extends React.Component {
 
     render()
     {
-        const list = this.props.question.wbs.map((wb)=>
-            <WordBlock wb={wb} />
+        const list = this.props.question.wbs.map((wb,index)=>
+            <WordBlock key={this.props.question.id+index} wb={wb} />
         )
 
         return(
