@@ -1,0 +1,98 @@
+{
+  "questions": [
+    {
+      "module": "no",
+      "id": 1,
+      "wbs": [
+        {
+          "value": "c'est"
+        },
+        {
+          "value": "le"
+        },
+        {
+          "value": "chat",
+          "color": "green",
+          "trad": {
+            "kana": "ねこ",
+            "kanji": "猫"
+          }
+        },
+        {
+          "value": "de"
+        },
+        {
+          "value": "link",
+          "color": "red",
+          "trad": {
+            "kana": "りンク"
+          }
+        }
+      ]
+    },
+    {
+      "module": "no",
+      "id": 2,
+      "wbs": [
+        {
+          "value": "c'est"
+        },
+        {
+          "value": "le"
+        },
+        {
+          "value": "chant",
+          "trad": {
+            "kana": "うた",
+            "kanji": "歌"
+          }
+        },
+        {
+          "value": "du"
+        },
+        {
+          "value": "temps",
+          "trad": {
+            "kana": "とき",
+            "kanji": "時"
+          }
+        }
+      ]
+    },
+    {
+      "module": "no",
+      "id": "３",
+      "wbs": [
+        {
+          "value": "ce"
+        },
+        {
+          "value": "sont"
+        },
+        {
+          "value": "les"
+        },
+        {
+          "value": "momies",
+          "trad":{
+            "kana": "ミイラ"
+          }
+        },
+        {
+          "value": "du",
+          "trad": {
+            "kana": "とき",
+            "kanji": "時"
+          }
+        },
+        {
+          "value": "temple",
+          "trad": {
+            "kana": "とき",
+            "kanji": "時"
+          }
+        }
+      ]
+    }
+  ]
+}

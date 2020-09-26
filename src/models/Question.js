@@ -1,15 +1,9 @@
 import React from 'react';
 import WordBlock from './WordBlock.js';
+import {Grid} from '@material-ui/core'
 
 export default class Question extends React.Component {
 
-    renderWb(i)
-    {
-        return(
-            <WordBlock wb={this.props.question.wbs[i]}>
-            </WordBlock>
-        )
-    }
 
     render()
     {
@@ -18,11 +12,9 @@ export default class Question extends React.Component {
         )
 
         return(
-            <div className="Question">
+            <Grid container justify="center" spacing="2" allignItems="center">
                 {list}
-            </div>
-
-
+            </Grid>
         )
     }
 }
