@@ -5,8 +5,8 @@ import Grid from '@material-ui/core/Grid';
 export default function Response(props)
 {
     
-    const list = props.response.rbs.map((rb)=>
-    <ResponseBlock key={Math.random()} rb={rb} />
+    const list = props.response.rbs.map((rb,index)=>
+    <ResponseBlock key={props.response.id+index} rb={rb} />
 )
     return (
         <Grid container justify="center" spacing="2" allignItems="center">
