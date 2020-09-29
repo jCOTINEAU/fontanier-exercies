@@ -1,0 +1,165 @@
+{
+  "questions": [
+    {
+      "module": "no",
+      "id": 1,
+      "wbs": [
+        {
+          "value": "c'est"
+        },
+        {
+          "value": "le"
+        },
+        {
+          "value": "chat",
+          "color": "green",
+          "trad": {
+            "kana": "ねこ",
+            "kanji": "猫"
+          }
+        },
+        {
+          "value": "de"
+        },
+        {
+          "value": "link",
+          "color": "red",
+          "trad": {
+            "kana": "リンク"
+          }
+        }
+      ]
+    },
+    {
+      "module": "no",
+      "id": 2,
+      "wbs": [
+        {
+          "value": "c'est"
+        },
+        {
+          "value": "le"
+        },
+        {
+          "value": "chant",
+          "trad": {
+            "kana": "うた",
+            "kanji": "歌"
+          }
+        },
+        {
+          "value": "du"
+        },
+        {
+          "value": "temps",
+          "trad": {
+            "kana": "とき",
+            "kanji": "時"
+          }
+        }
+      ]
+    },
+    {
+      "module": "no",
+      "id": 3,
+      "wbs": [
+        {
+          "value": "ce"
+        },
+        {
+          "value": "sont"
+        },
+        {
+          "value": "les"
+        },
+        {
+          "value": "momies",
+          "trad":{
+            "kana": "ミイラ"
+          }
+        },
+        {
+          "value": "du"
+        },
+        {
+          "value": "temple",
+          "trad": {
+            "kana": "シンデン",
+            "kanji": "神殿"
+          }
+        }
+      ]
+    },{
+      "module": "no",
+      "id": 4,
+      "wbs":[
+        {
+          "value": "c'est"
+        },
+        {
+          "value": "l'eau",
+          "trad":{
+            "kana":"みず",
+            "kanji":"水"
+          }
+        },
+        {
+          "value":"de"
+        },
+        {
+          "value":"la"
+        },
+        {
+          "value":"rivière",
+          "trad":{
+            "kana":"かわ",
+            "kanji":"川"
+          }
+        },
+        {
+          "value":"des"
+        },{
+          "value":"zoras",
+          "trad":{
+            "kana":"ゾーラ"
+          }
+        }
+      ]
+    },{
+      "module": "no",
+      "id": 5,
+      "wbs": [
+        {
+          "value": "c'est"
+        },
+        {
+          "value": "l'ocarina",
+          "trad": {
+            "kana": "オカリナ"
+          }
+        },
+        {
+          "value": "du"
+        },
+        {
+          "value": "temple",
+          "trad": {
+            "kana": "シンデン",
+            "kanji": "神殿"
+          }
+        },
+        {
+          "value": "du"
+        },
+        {
+          "value": "temps",
+          "trad": {
+            "kana": "とき",
+            "kanji": "時"
+          }
+        }
+      ]
+    }
+  ]
+}
+
