@@ -9,7 +9,7 @@ function ColorToggler() {
   return (
     <FormControlLabel labelPlacement="start"
     control={<Switch size="small" checked={color} onChange={(event) =>{toggleColor(event.target.checked)}} />}
-    label={"coloration syntaxique :".concat(color?'on':'off')}
+    label={"coloration :".concat(color?'on':'off')}
   />
  
   );

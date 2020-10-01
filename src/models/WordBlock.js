@@ -10,32 +10,31 @@ export default function WordBlock(props) {
 
   const { color } = useContext(displayColorContext);
   const { kanji } = useContext(displayKanjiContext)
-  const [displayTrad, setDisplayTrad] = useState(false)
+  const [onHover, setonHover] = useState(false)
 
-  let toDisplay = props.wb.value;
+  let toDisplay = props.wb.origin;
 
-  if (displayTrad) {
-    if (props.wb.trad) {
-      if (kanji && props.wb.trad.kanji) {
-        toDisplay = props.wb.trad.kanji
-      } else if (props.wb.trad) {
-        toDisplay = props.wb.trad.kana
-      }
-    } else {
-      toDisplay = props.wb.value
+  if(kanji)
+  {
+    if(onHover)
+    {
+      toDisplay=props.wb.onHoverAlternate??props.wb.onHover??props.wb.origin
+    }else{
+      toDisplay=props.wb.alternate??props.wb.origin
     }
-  } else {
-    toDisplay = props.wb.value
+  }else{
+    if(onHover){
+      toDisplay=props.wb.onHover??props.wb.origin
+    }
   }
 
   return (
    <Grid item>
     <Button className='wordblock' style={{ backgroundColor: color ? props.wb.color ?? 'lightgray' : 'lightgray' }}
       onMouseLeave={() => {
-        setDisplayTrad(!displayTrad)
+        setonHover(!onHover)
       }} onMouseEnter={() => {
-        setDisplayTrad(!displayTrad)
-
+        setonHover(!onHover)
       }}
       onClick={()=>{
         navigator.clipboard.writeText(toDisplay)

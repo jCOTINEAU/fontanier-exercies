@@ -9,11 +9,11 @@ export default function ResponseBlock(props)
     const { kanji } = useContext(displayKanjiContext)
     const [lValue, setlValue] = useState("")
 
-    const eqkanji=(lValue===props.rb.kanji)
-    const eqkana=(lValue===props.rb.kana)
+    const eqkanji=(lValue===props.rb.alternate)
+    const eqkana=(lValue===props.rb.origin)
 
     let toDisplay='white';
-    if((kanji && eqkanji) || (!kanji && eqkana) || (eqkana && !(props.rb.kanji) ))
+    if((kanji && eqkanji) || (!kanji && eqkana) || (eqkana && !(props.rb.alternate) ))
     {
         toDisplay='lightgreen'
     }else if((kanji && eqkana) || (!kanji && eqkanji))
