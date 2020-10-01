@@ -103,34 +103,30 @@
             ]
         }
     ],
-  "questions": [
+   "questions": [
     {
       "module": "no",
       "id": 1,
       "wbs": [
         {
-          "value": "c'est"
+          "origin": "c'est"
         },
         {
-          "value": "le"
+          "origin": "le"
         },
         {
-          "value": "chat",
-          "color": "green",
-          "trad": {
-            "kana": "ねこ",
-            "kanji": "猫"
-          }
+          "origin": "chat",
+          "type": "name",
+            "onHover": "ねこ",
+            "onHoverAlternate": "猫"
         },
         {
-          "value": "de"
+          "origin": "de"
         },
         {
-          "value": "link",
-          "color": "red",
-          "trad": {
-            "kana": "リンク"
-          }
+          "origin": "link",
+          "type": "name",
+            "onHover": "リンク"
         }
       ]
     },
@@ -139,27 +135,23 @@
       "id": 2,
       "wbs": [
         {
-          "value": "c'est"
+          "origin": "c'est"
         },
         {
-          "value": "le"
+          "origin": "le"
         },
         {
-          "value": "chant",
-          "trad": {
-            "kana": "うた",
-            "kanji": "歌"
-          }
+          "origin": "chant",
+            "onHover": "うた",
+            "onHoverAlternate": "歌"
         },
         {
-          "value": "du"
+          "origin": "du"
         },
         {
-          "value": "temps",
-          "trad": {
-            "kana": "とき",
-            "kanji": "時"
-          }
+          "origin": "temps",
+            "onHover": "とき",
+            "onHoverAlternate": "時"
         }
       ]
     },
@@ -168,29 +160,25 @@
       "id": 3,
       "wbs": [
         {
-          "value": "ce"
+          "origin": "ce"
         },
         {
-          "value": "sont"
+          "origin": "sont"
         },
         {
-          "value": "les"
+          "origin": "les"
         },
         {
-          "value": "momies",
-          "trad":{
-            "kana": "ミイラ"
-          }
+          "origin": "momies",
+            "onHover": "ミイラ"
         },
         {
-          "value": "du"
+          "origin": "du"
         },
         {
-          "value": "temple",
-          "trad": {
-            "kana": "シンデン",
-            "kanji": "神殿"
-          }
+          "origin": "temple",
+            "onHover": "シンデン",
+            "onHoverAlternate": "神殿"
         }
       ]
     },{
@@ -198,35 +186,29 @@
       "id": 4,
       "wbs":[
         {
-          "value": "c'est"
+          "origin": "c'est"
         },
         {
-          "value": "l'eau",
-          "trad":{
-            "kana":"みず",
-            "kanji":"水"
-          }
+          "origin": "l'eau",
+            "onHover":"みず",
+            "onHoverAlternate":"水"
         },
         {
-          "value":"de"
+          "origin":"de"
         },
         {
-          "value":"la"
+          "origin":"la"
         },
         {
-          "value":"rivière",
-          "trad":{
-            "kana":"かわ",
-            "kanji":"川"
-          }
+          "origin":"rivière",
+            "onHover":"かわ",
+            "onHoverAlternate":"川"
         },
         {
-          "value":"des"
+          "origin":"des"
         },{
-          "value":"zoras",
-          "trad":{
-            "kana":"ゾーラ"
-          }
+          "origin":"zoras",
+            "onHover":"ゾーラ"
         }
       ]
     },{
@@ -234,33 +216,27 @@
       "id": 5,
       "wbs": [
         {
-          "value": "c'est"
+          "origin": "c'est"
         },
         {
-          "value": "l'ocarina",
-          "trad": {
-            "kana": "オカリナ"
-          }
+          "origin": "l'ocarina",
+          "onHover": "オカリナ"
         },
         {
-          "value": "du"
+          "origin": "du"
         },
         {
-          "value": "temple",
-          "trad": {
-            "kana": "シンデン",
-            "kanji": "神殿"
-          }
+          "origin": "temple",
+          "onHover": "シンデン",
+          "onHoverAlternate": "神殿"
         },
         {
-          "value": "du"
+          "origin": "du"
         },
         {
-          "value": "temps",
-          "trad": {
-            "kana": "とき",
-            "kanji": "時"
-          }
+          "origin": "temps",
+          "onHover": "とき",
+          "onHoverAlternate": "時"
         }
       ]
     }
