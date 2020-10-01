@@ -6,17 +6,17 @@
             "rbs":
             [
                 {
-                    "kana": "リンク"
+                    "origin": "リンク"
                 },
                 {
-                    "kana": "の"
+                    "origin": "の"
                 },
                 {
-                    "kanji": "猫",
-                    "kana":"ねこ"
+                    "alternate": "猫",
+                    "origin":"ねこ"
                 },
                 {
-                    "kana": "だ"
+                    "origin": "だ"
                 }
             ]
         },
@@ -26,16 +26,16 @@
             "rbs":
             [
                 {
-                    "kana": "とき",
-                    "kanji": "時"
+                    "origin": "とき",
+                    "alternate": "時"
                 },
                 {
-                    "kana": "の"
+                    "origin": "の"
                 },{
-                    "kana": "うた",
-                    "kanji": "歌"
+                    "origin": "うた",
+                    "alternate": "歌"
                 },{
-                    "kana": "だ"
+                    "origin": "だ"
                 }
             ]
         }, {
@@ -44,15 +44,15 @@
             "rbs":
             [
                 {
-                    "kana": "シンデン",
-                    "kanji": "神殿"
+                    "origin": "シンデン",
+                    "alternate": "神殿"
                 },
                 {
-                    "kana": "の"
+                    "origin": "の"
                 },{
-                    "kana": "ミイラ"
+                    "origin": "ミイラ"
                 },{
-                    "kana": "だ"
+                    "origin": "だ"
                 }
             ]
         },{
@@ -60,22 +60,22 @@
             "module":"no",
             "rbs":[
                 {
-                    "kana":"ゾーラ"
+                    "origin":"ゾーラ"
                 },
                 {
-                    "kana":"の"
+                    "origin":"の"
                 },
                 {
-                    "kana":"かわ",
-                    "kanji":"川"
+                    "origin":"かわ",
+                    "alternate":"川"
                 },{
-                    "kana":"の"
+                    "origin":"の"
                 },{
-                    "kanji":"水",
-                    "kana": "みず"
+                    "alternate":"水",
+                    "origin": "みず"
                 },
                 {
-                    "kana":"だ"
+                    "origin":"だ"
                 }
             ]
         },{
@@ -83,22 +83,22 @@
             "module":"no",
             "rbs":[
                 {
-                    "kana":"とき",
-                    "kanji": "時"
+                    "origin":"とき",
+                    "alternate": "時"
                 },
                 {
-                    "kana":"の"
+                    "origin":"の"
                 },
                 {
-                    "kana":"シンデン",
-                    "kanji":"神殿"
+                    "origin":"シンデン",
+                    "alternate":"神殿"
                 },{
-                    "kana":"の"
+                    "origin":"の"
                 },{
-                    "kana": "オカリナ"
+                    "origin": "オカリナ"
                 },
                 {
-                    "kana":"だ"
+                    "origin":"だ"
                 }
             ]
         }
