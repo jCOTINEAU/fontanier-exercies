@@ -70,8 +70,8 @@ export default function App() {
               <TopBar></TopBar>
 
 
-              <Question question={questions[activeQr]} />
-              <Response response={responses[activeQr]}></Response>
+              <Question version={version} module={module} question={questions[activeQr]} />
+              <Response version={version} module={module} response={responses[activeQr]}></Response>
 
 
 
