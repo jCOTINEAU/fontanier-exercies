@@ -29,17 +29,16 @@ export default function App() {
   const [kanji, toggleKanji] = useState(false);
   const valueKanji = { kanji, toggleKanji };
 
-  const [version, toggleVersion] = useState(false);
+  const [version, toggleVersion] = useState(true);
   const valueVersion = { version, toggleVersion };
 
   const [module, toggleModule] = useState("no");
   const valueModule = { module, toggleModule };
 
   useEffect(() => {
-    if(!isLoaded && !error)
-    {
-      fetch("https://raw.githubusercontent.com/jCOTINEAU/fontanier-exercies/data/data/theme/"+module+"/questions.json")
-      .then(res => res.json())
+      const modChoice = version?"version":"theme";
+      fetch("https://raw.githubusercontent.com/jCOTINEAU/fontanier-exercies/data/data/"+modChoice+"/"+module+"/data.json")
+      .then((res) => res.json())
       .then(
         (result) => {
           setQuestions(result.questions);
@@ -47,16 +46,16 @@ export default function App() {
           setIsLoaded(true);
         },
         (error) => {
+          setError(error.message);
           setIsLoaded(true);
-          setError(error);
+          
         }
       )
-    }
-
-  }, [isLoaded,error,module])
+  
+  }, [isLoaded,error,module,version])
 
   if (error) {
-    return <div>Erreur : {error.message}</div>;
+    return <div>Erreur : {error}</div>;
   } else if (!isLoaded) {
     return <div>Chargement...</div>;
   } else {

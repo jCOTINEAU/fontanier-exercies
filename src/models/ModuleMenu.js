@@ -8,7 +8,7 @@ import { displayModuleContext } from '../contexts/ModuleContext';
 
 const options = [
   'no',
-  'he'
+  'de'
 ];
 
 const ITEM_HEIGHT = 48;
