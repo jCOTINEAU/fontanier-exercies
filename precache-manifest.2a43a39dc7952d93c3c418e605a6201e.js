@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92e6b48dabfd1c0b1738d8eed68dea27",
+    "revision": "ceaa82157ffd10942bd7dc1744081381",
     "url": "/fontanier-exercies/index.html"
   },
   {
-    "revision": "b872323cdbded0ce9737",
+    "revision": "af0fe4aa04fb023dad9d",
     "url": "/fontanier-exercies/static/css/2.30fef30f.chunk.css"
   },
   {
-    "revision": "14ea43a8f3605493ea61",
+    "revision": "6aecef91dff07aef6457",
     "url": "/fontanier-exercies/static/css/main.20d08b3b.chunk.css"
   },
   {
-    "revision": "b872323cdbded0ce9737",
-    "url": "/fontanier-exercies/static/js/2.ba4e43c0.chunk.js"
+    "revision": "af0fe4aa04fb023dad9d",
+    "url": "/fontanier-exercies/static/js/2.e0e45b60.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/fontanier-exercies/static/js/2.ba4e43c0.chunk.js.LICENSE.txt"
+    "url": "/fontanier-exercies/static/js/2.e0e45b60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "14ea43a8f3605493ea61",
-    "url": "/fontanier-exercies/static/js/main.fb1ed9a9.chunk.js"
+    "revision": "6aecef91dff07aef6457",
+    "url": "/fontanier-exercies/static/js/main.88059873.chunk.js"
   },
   {
     "revision": "a5b60639702512c616f8",
