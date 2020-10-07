@@ -142,6 +142,32 @@
           "origin": "だ"
         }
       ]
+    },
+    {
+      "id": 7,
+      "module": "no",
+      "rbs": [
+        {
+          "origin": "あくま",
+          "alternate": "悪魔"
+        },
+        {
+          "origin": "の"
+        },
+        {
+          "origin": "ガノン"
+        },
+        {
+          "origin": "の"
+        },
+        {
+          "origin": "かいぶつ",
+          "alternate": "怪物"
+        },
+        {
+          "origin": "だ"
+        }
+      ]
     }
   ],
   "questions": [
@@ -324,6 +350,38 @@
         {
           "origin": "gerudo",
           "onHover": "ゲルド"
+        }
+      ]
+    },
+    {
+      "module": "no",
+      "id": 7,
+      "wbs": [
+        {
+          "origin": "ce"
+        },
+        {
+          "origin": "sont"
+        },
+        {
+          "origin": "les"
+        },
+        {
+          "origin": "monstres",
+          "onHover": "かいぶつ",
+          "onHoverAlternate": "怪物"
+        },
+        {
+          "origin": "du"
+        },
+        {
+          "origin": "diable",
+          "onHover": "あくま",
+          "onHoverAlternate": "悪魔"
+        },
+        {
+          "origin": "ganon",
+          "onHover": "ガノン"
         }
       ]
     }
