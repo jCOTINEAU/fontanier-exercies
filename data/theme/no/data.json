@@ -1,109 +1,144 @@
 {
-      "responses":[
+  "responses": [
+    {
+      "id": 1,
+      "module": "no",
+      "rbs": [
         {
-            "id": 1,
-            "module": "no",
-            "rbs":
-            [
-                {
-                    "origin": "リンク"
-                },
-                {
-                    "origin": "の"
-                },
-                {
-                    "alternate": "猫",
-                    "origin":"ねこ"
-                },
-                {
-                    "origin": "だ"
-                }
-            ]
+          "origin": "リンク"
         },
         {
-            "id": 2,
-            "module": "no",
-            "rbs":
-            [
-                {
-                    "origin": "とき",
-                    "alternate": "時"
-                },
-                {
-                    "origin": "の"
-                },{
-                    "origin": "うた",
-                    "alternate": "歌"
-                },{
-                    "origin": "だ"
-                }
-            ]
-        }, {
-            "id": 3,
-            "module": "no",
-            "rbs":
-            [
-                {
-                    "origin": "シンデン",
-                    "alternate": "神殿"
-                },
-                {
-                    "origin": "の"
-                },{
-                    "origin": "ミイラ"
-                },{
-                    "origin": "だ"
-                }
-            ]
-        },{
-            "id":4,
-            "module":"no",
-            "rbs":[
-                {
-                    "origin":"ゾーラ"
-                },
-                {
-                    "origin":"の"
-                },
-                {
-                    "origin":"かわ",
-                    "alternate":"川"
-                },{
-                    "origin":"の"
-                },{
-                    "alternate":"水",
-                    "origin": "みず"
-                },
-                {
-                    "origin":"だ"
-                }
-            ]
-        },{
-            "id":5,
-            "module":"no",
-            "rbs":[
-                {
-                    "origin":"とき",
-                    "alternate": "時"
-                },
-                {
-                    "origin":"の"
-                },
-                {
-                    "origin":"シンデン",
-                    "alternate":"神殿"
-                },{
-                    "origin":"の"
-                },{
-                    "origin": "オカリナ"
-                },
-                {
-                    "origin":"だ"
-                }
-            ]
+          "origin": "の"
+        },
+        {
+          "alternate": "猫",
+          "origin": "ねこ"
+        },
+        {
+          "origin": "だ"
         }
-    ],
-   "questions": [
+      ]
+    },
+    {
+      "id": 2,
+      "module": "no",
+      "rbs": [
+        {
+          "origin": "とき",
+          "alternate": "時"
+        },
+        {
+          "origin": "の"
+        },
+        {
+          "origin": "うた",
+          "alternate": "歌"
+        },
+        {
+          "origin": "だ"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "module": "no",
+      "rbs": [
+        {
+          "origin": "シンデン",
+          "alternate": "神殿"
+        },
+        {
+          "origin": "の"
+        },
+        {
+          "origin": "ミイラ"
+        },
+        {
+          "origin": "だ"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "module": "no",
+      "rbs": [
+        {
+          "origin": "ゾーラ"
+        },
+        {
+          "origin": "の"
+        },
+        {
+          "origin": "かわ",
+          "alternate": "川"
+        },
+        {
+          "origin": "の"
+        },
+        {
+          "alternate": "水",
+          "origin": "みず"
+        },
+        {
+          "origin": "だ"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "module": "no",
+      "rbs": [
+        {
+          "origin": "とき",
+          "alternate": "時"
+        },
+        {
+          "origin": "の"
+        },
+        {
+          "origin": "シンデン",
+          "alternate": "神殿"
+        },
+        {
+          "origin": "の"
+        },
+        {
+          "origin": "オカリナ"
+        },
+        {
+          "origin": "だ"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "module": "no",
+      "rbs": [
+        {
+          "origin": "ゲルド"
+        },
+        {
+          "origin": "の"
+        },
+        {
+          "alternate": "谷",
+          "origin": "たに"
+        },
+        {
+          "origin": "あじょ",
+          "alternate": "魔女"
+        },
+        {
+          "origin": "の"
+        },
+        {
+          "alternate": "箒",
+          "origin": "ほうき"
+        }
+      ]
+    }
+  ],
+  "questions": [
     {
       "module": "no",
       "id": 1,
@@ -117,8 +152,8 @@
         {
           "origin": "chat",
           "type": "name",
-            "onHover": "ねこ",
-            "onHoverAlternate": "猫"
+          "onHover": "ねこ",
+          "onHoverAlternate": "猫"
         },
         {
           "origin": "de"
@@ -126,7 +161,7 @@
         {
           "origin": "link",
           "type": "name",
-            "onHover": "リンク"
+          "onHover": "リンク"
         }
       ]
     },
@@ -142,16 +177,16 @@
         },
         {
           "origin": "chant",
-            "onHover": "うた",
-            "onHoverAlternate": "歌"
+          "onHover": "うた",
+          "onHoverAlternate": "歌"
         },
         {
           "origin": "du"
         },
         {
           "origin": "temps",
-            "onHover": "とき",
-            "onHoverAlternate": "時"
+          "onHover": "とき",
+          "onHoverAlternate": "時"
         }
       ]
     },
@@ -170,48 +205,51 @@
         },
         {
           "origin": "momies",
-            "onHover": "ミイラ"
+          "onHover": "ミイラ"
         },
         {
           "origin": "du"
         },
         {
           "origin": "temple",
-            "onHover": "シンデン",
-            "onHoverAlternate": "神殿"
+          "onHover": "シンデン",
+          "onHoverAlternate": "神殿"
         }
       ]
-    },{
+    },
+    {
       "module": "no",
       "id": 4,
-      "wbs":[
+      "wbs": [
         {
           "origin": "c'est"
         },
         {
           "origin": "l'eau",
-            "onHover":"みず",
-            "onHoverAlternate":"水"
+          "onHover": "みず",
+          "onHoverAlternate": "水"
         },
         {
-          "origin":"de"
+          "origin": "de"
         },
         {
-          "origin":"la"
+          "origin": "la"
         },
         {
-          "origin":"rivière",
-            "onHover":"かわ",
-            "onHoverAlternate":"川"
+          "origin": "rivière",
+          "onHover": "かわ",
+          "onHoverAlternate": "川"
         },
         {
-          "origin":"des"
-        },{
-          "origin":"zoras",
-            "onHover":"ゾーラ"
+          "origin": "des"
+        },
+        {
+          "origin": "zoras",
+          "onHover": "ゾーラ"
         }
       ]
-    },{
+    },
+    {
       "module": "no",
       "id": 5,
       "wbs": [
@@ -239,7 +277,49 @@
           "onHoverAlternate": "時"
         }
       ]
+    },
+    {
+      "module": "no",
+      "id": 6,
+      "wbs": [
+        {
+          "origin": "ce"
+        },
+        {
+          "origin": "sont"
+        },
+        {
+          "origin": "les"
+        },
+        {
+          "origin": "balais",
+          "onHover": "ほうき",
+          "onHoverAlternate": "箒"
+        },
+        {
+          "origin": "des"
+        },
+        {
+          "origin": "sorcières",
+          "onHover": "あじょ",
+          "onHoverAlternate": "魔女"
+        },
+        {
+          "origin": "de"
+        },
+        {
+          "origin": "la"
+        },
+        {
+          "origin": "vallée",
+          "onHover": "たに",
+          "onHoverAlternate": "谷"
+        },
+        {
+          "origin": "gerudo",
+          "onHover": "ゲルド"
+        }
+      ]
     }
   ]
 }
-
