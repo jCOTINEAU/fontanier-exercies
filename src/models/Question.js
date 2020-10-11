@@ -8,7 +8,7 @@ export default class Question extends React.Component {
     render()
     {
         const versionValue=this.props.version?"version":"theme"
-        const qKey=this.props.module+versionValue+this.props.question.id*100;
+        const qKey=this.props.module+versionValue+this.props.question.question*100;
 
         const list = this.props.question.wbs.map((wb,index)=>
             <WordBlock key={qKey+index} wb={wb} />

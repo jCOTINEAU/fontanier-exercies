@@ -29,7 +29,7 @@ export default function App() {
   const [kanji, toggleKanji] = useState(false);
   const valueKanji = { kanji, toggleKanji };
 
-  const [version, toggleVersion] = useState(true);
+  const [version, toggleVersion] = useState(false);
   const valueVersion = { version, toggleVersion };
 
   const [module, toggleModule] = useState("no");
@@ -41,8 +41,8 @@ export default function App() {
       .then((res) => res.json())
       .then(
         (result) => {
-          setQuestions(result.questions);
-          setResponses(result.responses);
+          setQuestions(result.questions.questions);
+          setResponses(result.responses.responses);
           setIsLoaded(true);
         },
         (error) => {
