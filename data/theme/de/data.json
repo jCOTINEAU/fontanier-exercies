@@ -1,54 +1,54 @@
- {
-   "responses": [
+{
+  "questions": {
+    "questions": [
       {
-            "id": 1,
-            "module": "de",
-            "rbs":
-            [
-                {
-                    "origin": "ナルト"
-                },
-                {
-                    "origin": "は"
-                },
-                {
-                    "alternate": "学校",
-                    "origin":"がっこ"
-                },
-                {
-                    "origin": "で"
-                },{
-                  "origin": "ねる",
-                  "alternate": "寝る"
-                }
-            ]
-        }
-     ],
-   "questions": [
-    {
-      "module": "de",
-      "id": 1,
-      "wbs": [
-        {
-          "origin": "naruto",
-          "type": "theme",
-          "onHover": "ナルト"
-        },
-        {
-          "origin": "dort",
-          "onHover": "ねる",
-          "onHoverAlternate": "寝る"
-
-        },
-        {
-          "origin": "à"
-        },
-        {
-          "origin": "l'école",
-          "onHover": "がっこ",
-          "onHoverAlternate": "学校"
-        }
-      ]
-    }
-  ]
- }
+        "question": 1,
+        "wbs": [
+          {
+            "origin": "naruto",
+            "onHover": "ナルト"
+          },
+          {
+            "origin": "dort",
+            "onHover": "ねる",
+            "onHoverAlternate": "寝る"
+          },
+          {
+            "origin": "à"
+          },
+          {
+            "origin": "l'école",
+            "onHover": "がっこ",
+            "onHoverAlternate": "学校"
+          }
+        ]
+      }
+    ]
+  },
+  "responses": {
+    "responses": [
+      {
+        "response": 1,
+        "rbs": [
+          {
+            "origin": "ナルト"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "がっこ",
+            "alternate": "学校"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "ねる",
+            "alternate": "寝る"
+          }
+        ]
+      }
+    ]
+  }
+}
