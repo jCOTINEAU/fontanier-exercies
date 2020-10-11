@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fontanier-exercies/static/css/main.20d08b3b.chunk.css",
-    "main.js": "/fontanier-exercies/static/js/main.bac443a9.chunk.js",
-    "main.js.map": "/fontanier-exercies/static/js/main.bac443a9.chunk.js.map",
+    "main.js": "/fontanier-exercies/static/js/main.d46b2344.chunk.js",
+    "main.js.map": "/fontanier-exercies/static/js/main.d46b2344.chunk.js.map",
     "runtime-main.js": "/fontanier-exercies/static/js/runtime-main.d33d93bd.js",
     "runtime-main.js.map": "/fontanier-exercies/static/js/runtime-main.d33d93bd.js.map",
     "static/css/2.30fef30f.chunk.css": "/fontanier-exercies/static/css/2.30fef30f.chunk.css",
     "static/js/2.e0e45b60.chunk.js": "/fontanier-exercies/static/js/2.e0e45b60.chunk.js",
     "static/js/2.e0e45b60.chunk.js.map": "/fontanier-exercies/static/js/2.e0e45b60.chunk.js.map",
     "index.html": "/fontanier-exercies/index.html",
-    "precache-manifest.2c3c5e4ab6078ed8988ec87e1680c76a.js": "/fontanier-exercies/precache-manifest.2c3c5e4ab6078ed8988ec87e1680c76a.js",
+    "precache-manifest.8ab22404cf3e8c1c6afd803595fa7e32.js": "/fontanier-exercies/precache-manifest.8ab22404cf3e8c1c6afd803595fa7e32.js",
     "service-worker.js": "/fontanier-exercies/service-worker.js",
     "static/css/2.30fef30f.chunk.css.map": "/fontanier-exercies/static/css/2.30fef30f.chunk.css.map",
     "static/css/main.20d08b3b.chunk.css.map": "/fontanier-exercies/static/css/main.20d08b3b.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.30fef30f.chunk.css",
     "static/js/2.e0e45b60.chunk.js",
     "static/css/main.20d08b3b.chunk.css",
-    "static/js/main.bac443a9.chunk.js"
+    "static/js/main.d46b2344.chunk.js"
   ]
 }
