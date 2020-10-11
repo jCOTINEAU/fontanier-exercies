@@ -1,51 +1,52 @@
 {
-   "responses": [
+  "questions": {
+    "questions": [
       {
-            "id": 1,
-            "module": "no",
-            "rbs":
-            [
-                {
-                    "origin": "c'est"
-                },
-                {
-                    "origin": "le"
-                },
-                {
-                    "origin":"chien"
-                },
-                {
-                    "origin": "de"
-                },{
-                  "origin": "zelda"
-                }
-            ]
-        }
-     ],
-   "questions": [
-    {
-      "module": "no",
-      "id": 1,
-      "wbs": [
-        {
-          "origin": "ゼルダ",
-          "onHover": "zelda"
-        },
-        {
-          "origin": "の",
-          "type": "particule"
-
-        },
-        {
-          "origin": "いぬ",
-          "alternate": "犬",
-          "onHover": "chien"
-        },
-        {
-          "origin": "だ",
-          "type": "particule"
-        }
-      ]
-    }
-  ]
- }
+        "question": 1,
+        "wbs": [
+          {
+            "origin": "ゼルダ",
+            "onHover": "zelda"
+          },
+          {
+            "origin": "の",
+            "type": "particule"
+          },
+          {
+            "origin": "いぬ",
+            "alternate": "犬",
+            "onHover": "chien"
+          },
+          {
+            "origin": "だ",
+            "type": "particule"
+          }
+        ]
+      }
+    ]
+  },
+  "responses": {
+    "responses": [
+      {
+        "response": 1,
+        "rbs": [
+          {
+            "origin": "c'est"
+          },
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "chien"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "zelda"
+          }
+        ]
+      }
+    ]
+  }
+}
