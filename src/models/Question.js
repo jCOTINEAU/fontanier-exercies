@@ -18,7 +18,7 @@ export default class Question extends React.Component {
             <Grid container justify="center" spacing="2" allignItems="center">
                 <Grid container justify="center">
                     <Grid item>
-                        <div>question n°:{this.props.question.id}</div>
+                        <div>question n°:{this.props.question.question}</div>
                     </Grid>
                 </Grid>
                 {list}

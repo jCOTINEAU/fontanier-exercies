@@ -52,7 +52,12 @@ export default function App() {
         }
       )
   
-  }, [isLoaded,error,module,version])
+  },[error,module,version])
+
+  if(activeQr>= questions.length)
+  {
+    activeQr=0
+  }
 
   if (error) {
     return <div>Erreur : {error}</div>;
