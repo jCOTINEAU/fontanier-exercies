@@ -1,0 +1,64 @@
+{
+  "questions": {
+    "questions": [
+      {
+        "question": 1,
+        "wbs": [
+          {
+            "origin": "いぬ",
+            "alternate": "犬",
+            "onHover": "chien"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "ホテル",
+            "onHover": "hôtel"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "そと",
+            "alternate": "外"
+          },
+          {
+            "origin": "あそぶ",
+            "alternate": "遊ぶ"
+          }
+        ]
+      }
+    ]
+  },
+  "responses": {
+    "responses": [
+      {
+        "response": 1,
+        "rbs": [
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "chien"
+          },
+          {
+            "origin": "joue"
+          },
+          {
+            "origin": "à"
+          },
+          {
+            "origin": "l'éxterieur"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "l'hôtel"
+          }
+        ]
+      }
+    ]
+  }
+}
