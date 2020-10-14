@@ -22,6 +22,221 @@
             "type": "particule"
           }
         ]
+      },
+      {
+        "question": 2,
+        "wbs": [
+          {
+            "origin": "ろうそく",
+            "alternate": "蝋燭",
+            "onHover": "bougie"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ほのお",
+            "alternate": "炎",
+            "onHover": "flamme"
+          },
+          {
+            "origin": "だ"
+          }
+        ]
+      },
+      {
+        "question": 3,
+        "wbs": [
+          {
+            "origin": "リンク",
+            "onHover": "link"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ゴロン",
+            "onHover": "goron"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "かめん",
+            "alternate": "仮面",
+            "onHover": "masque"
+          },
+          {
+            "origin": "だ"
+          }
+        ]
+      },
+      {
+        "question": 4,
+        "wbs": [
+          {
+            "origin": "のり",
+            "alternate": "森",
+            "onHover": "forêt"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "しんでん",
+            "alternate": "神殿",
+            "onHover": "temple"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "おおかみおとこ",
+            "alternate": "狼男",
+            "onHover": "loup-garou"
+          },
+          {
+            "origin": "だ"
+          }
+        ]
+      },
+      {
+        "question": 5,
+        "wbs": [
+          {
+            "origin": "ムジュラ",
+            "onHover": "majora"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "かめん",
+            "alternate": "仮面",
+            "onHover": "masque"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "つき",
+            "alternate": "月",
+            "onHover": "lune"
+          },
+          {
+            "origin": "た"
+          }
+        ]
+      },
+      {
+        "question": 6,
+        "wbs": [
+          {
+            "origin": "カカリコむら",
+            "alternate": "カカリコ村",
+            "onHover": "village cocorico"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ぼち",
+            "alternate": "墓地",
+            "onHover": "cimetière"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "はか",
+            "alternate": "墓",
+            "onHover": "tombe"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ぼうれい",
+            "alternate": "亡霊",
+            "onHover": "fantôme"
+          },
+          {
+            "origin": "だ"
+          }
+        ]
+      },
+      {
+        "question": 7,
+        "wbs": [
+          {
+            "origin": "よる",
+            "alternate": "夜",
+            "onHover": "nuit"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ハイラルへいげん",
+            "alternate": "ハイラル平原",
+            "onHover": "plaine d'hyrule"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "こかっく",
+            "alternate": "骨格",
+            "onHover": "squelettes"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ほね",
+            "alternate": "骨",
+            "onHover": "os"
+          },
+          {
+            "origin": "だ"
+          }
+        ]
+      },
+      {
+        "question": 8,
+        "wbs": [
+          {
+            "origin": "ほのお",
+            "alternate": "炎",
+            "onHover": "flamme"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "しんでん",
+            "alternate": "神殿",
+            "onHover": "temple"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ひ",
+            "alternate": "火",
+            "onHover": "feu"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "コウモリ",
+            "onHover": "chauves-souris"
+          },
+          {
+            "origin": "だ"
+          }
+        ]
       }
     ]
   },
@@ -44,6 +259,221 @@
           },
           {
             "origin": "zelda"
+          }
+        ]
+      },
+      {
+        "response": 2,
+        "rbs": [
+          {
+            "origin": "c'est"
+          },
+          {
+            "origin": "la"
+          },
+          {
+            "origin": "flamme"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "la"
+          },
+          {
+            "origin": "bougie"
+          }
+        ]
+      },
+      {
+        "response": 3,
+        "rbs": [
+          {
+            "origin": "c'est"
+          },
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "masque"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "goron"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "link"
+          }
+        ]
+      },
+      {
+        "response": 4,
+        "rbs": [
+          {
+            "origin": "c'est"
+          },
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "loup"
+          },
+          {
+            "origin": "garou"
+          },
+          {
+            "origin": "du"
+          },
+          {
+            "origin": "temple"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "la"
+          },
+          {
+            "origin": "forêt"
+          }
+        ]
+      },
+      {
+        "response": 5,
+        "rbs": [
+          {
+            "origin": "c'est"
+          },
+          {
+            "origin": "la"
+          },
+          {
+            "origin": "lune"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "majora's"
+          },
+          {
+            "origin": "mask"
+          }
+        ]
+      },
+      {
+        "response": 6,
+        "rbs": [
+          {
+            "origin": "c'est"
+          },
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "fantôme"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "la"
+          },
+          {
+            "origin": "tombe"
+          },
+          {
+            "origin": "du"
+          },
+          {
+            "origin": "cimetière"
+          },
+          {
+            "origin": "du"
+          },
+          {
+            "origin": "village"
+          },
+          {
+            "origin": "cocorico"
+          }
+        ]
+      },
+      {
+        "response": 7,
+        "rbs": [
+          {
+            "origin": "ce"
+          },
+          {
+            "origin": "sont"
+          },
+          {
+            "origin": "les"
+          },
+          {
+            "origin": "os"
+          },
+          {
+            "origin": "des"
+          },
+          {
+            "origin": "squelettes"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "la"
+          },
+          {
+            "origin": "plaine"
+          },
+          {
+            "origin": "d'hyrule"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "nuit"
+          }
+        ]
+      },
+      {
+        "response": 8,
+        "rbs": [
+          {
+            "origin": "ce"
+          },
+          {
+            "origin": "sont"
+          },
+          {
+            "origin": "les"
+          },
+          {
+            "origin": "chauves-souris"
+          },
+          {
+            "origin": "enflammées"
+          },
+          {
+            "origin": "du"
+          },
+          {
+            "origin": "temple"
+          },
+          {
+            "origin": "du"
+          },
+          {
+            "origin": "feu"
           }
         ]
       }
