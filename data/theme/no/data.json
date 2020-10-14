@@ -201,7 +201,44 @@
             "onHoverAlternate": "悪魔"
           },
           {
-            "origin": "gannon"
+            "origin": "gannon",
+            "onHover": "ガノン"
+          }
+        ]
+      },
+      {
+        "question": 8,
+        "wbs": [
+          {
+            "origin": "c'est"
+          },
+          {
+            "origin": "zelda",
+            "onHover": "ゼルダ"
+          },
+          {
+            "origin": "la"
+          },
+          {
+            "origin": "princesse",
+            "onHover": "おうじょ",
+            "onHoverAlternate": "王女"
+          },
+          {
+            "origin": "du"
+          },
+          {
+            "origin": "royaume",
+            "onHover": "おうこく",
+            "onHoverAlternate": "王国"
+          },
+          {
+            "origin": "des"
+          },
+          {
+            "origin": "dieux",
+            "onHover": "かみがみ",
+            "onHoverAlternate": "神々"
           }
         ]
       }
@@ -365,6 +402,35 @@
           {
             "origin": "かいぶつ",
             "alternate": "怪物"
+          },
+          {
+            "origin": "だ"
+          }
+        ]
+      },
+      {
+        "response": 8,
+        "rbs": [
+          {
+            "origin": "かみがみ",
+            "alternate": "神々"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "おうこく",
+            "alternate": "王国"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "おうじょ",
+            "alternate": "王女"
+          },
+          {
+            "origin": "ゼルダ"
           },
           {
             "origin": "だ"
