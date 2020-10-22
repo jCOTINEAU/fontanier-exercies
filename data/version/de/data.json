@@ -25,6 +25,9 @@
             "onHover": "à l'extérieur"
           },
           {
+            "origin": "で"
+          },
+          {
             "origin": "あそぶ",
             "alternate": "遊ぶ",
             "onHover": "jouer"
