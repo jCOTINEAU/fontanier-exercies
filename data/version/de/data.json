@@ -21,11 +21,255 @@
           },
           {
             "origin": "そと",
-            "alternate": "外"
+            "alternate": "外",
+            "onHover": "à l'extérieur"
           },
           {
             "origin": "あそぶ",
-            "alternate": "遊ぶ"
+            "alternate": "遊ぶ",
+            "onHover": "jouer"
+          }
+        ]
+      },
+      {
+        "question": 2,
+        "wbs": [
+          {
+            "origin": "サクラ",
+            "onHover": "sakura"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "げきじょう",
+            "alternate": "劇場",
+            "onHover": "théâtre"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "なか",
+            "alternate": "中",
+            "onHover": "à l'intérieur"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "わらう",
+            "alternate": "笑う",
+            "onHover": "rire"
+          }
+        ]
+      },
+      {
+        "question": 3,
+        "wbs": [
+          {
+            "origin": "ナルト"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "ボールペン",
+            "onHover": "stylo à bille"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "かく",
+            "alternate": "書く",
+            "onHover": "écrire"
+          }
+        ]
+      },
+      {
+        "question": 4,
+        "wbs": [
+          {
+            "origin": "マルセイユ"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "パリ"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "みなみ",
+            "alternate": "南",
+            "onHover": "sud"
+          },
+          {
+            "origin": "に"
+          },
+          {
+            "origin": "ある"
+          }
+        ]
+      },
+      {
+        "question": 5,
+        "wbs": [
+          {
+            "origin": "ヒナタ"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "どうぶつえん",
+            "alternate": "動物園",
+            "onHover": "zoo"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "うま",
+            "alternate": "馬",
+            "onHover": "cheval"
+          },
+          {
+            "origin": "や"
+          },
+          {
+            "origin": "やぎ",
+            "alternate": "山羊",
+            "onHover": "chèvre"
+          },
+          {
+            "origin": "と"
+          },
+          {
+            "origin": "はなす",
+            "alternate": "話す"
+          }
+        ]
+      },
+      {
+        "question": 6,
+        "wbs": [
+          {
+            "origin": "サクラ",
+            "onHover": "sakura"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ねこ",
+            "alternate": "猫",
+            "onHover": "chat"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "トイル",
+            "onHover": "toilettes"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "エアコン",
+            "onHover": "climatiseur"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "じょう",
+            "alternate": "上",
+            "onHover": "au-dessus"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "ねる",
+            "alternate": "寝る",
+            "onHover": "dormir"
+          }
+        ]
+      },
+      {
+        "question": 7,
+        "wbs": [
+          {
+            "origin": "カカシ",
+            "onHover": "kakashi"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "スプー",
+            "onHover": "cuillère"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "うら",
+            "alternate": "裏",
+            "onHover": "dos(revers)"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "たべる",
+            "alternate": "食べる",
+            "onHover": "manger"
+          }
+        ]
+      },
+      {
+        "question": 8,
+        "wbs": [
+          {
+            "origin": "サクラ",
+            "onHover": "sakura"
+          },
+          {
+            "origin": "と"
+          },
+          {
+            "origin": "サスケ",
+            "onHover": "sasuke"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "このは",
+            "alternate": "木の葉",
+            "onHover": "konoha"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "みずみ",
+            "alternate": "湖",
+            "onHover": "lac"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "およぐ",
+            "alternate": "泳ぐ",
+            "onHover": "nager"
           }
         ]
       }
@@ -56,6 +300,212 @@
           },
           {
             "origin": "l'hôtel"
+          }
+        ]
+      },
+      {
+        "response": 2,
+        "rbs": [
+          {
+            "origin": "sakura"
+          },
+          {
+            "origin": "rit"
+          },
+          {
+            "origin": "à"
+          },
+          {
+            "origin": "l'intérieur"
+          },
+          {
+            "origin": "du"
+          },
+          {
+            "origin": "théâtre"
+          }
+        ]
+      },
+      {
+        "response": 3,
+        "rbs": [
+          {
+            "origin": "naruto"
+          },
+          {
+            "origin": "écrit"
+          },
+          {
+            "origin": "avec"
+          },
+          {
+            "origin": "un"
+          },
+          {
+            "origin": "stylo"
+          },
+          {
+            "origin": "à"
+          },
+          {
+            "origin": "bille"
+          }
+        ]
+      },
+      {
+        "response": 4,
+        "rbs": [
+          {
+            "origin": "marseille"
+          },
+          {
+            "origin": "se"
+          },
+          {
+            "origin": "trouve"
+          },
+          {
+            "origin": "au"
+          },
+          {
+            "origin": "sud"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "paris"
+          }
+        ]
+      },
+      {
+        "response": 5,
+        "rbs": [
+          {
+            "origin": "hinata"
+          },
+          {
+            "origin": "parle"
+          },
+          {
+            "origin": "avec"
+          },
+          {
+            "origin": "des"
+          },
+          {
+            "origin": "chevaux"
+          },
+          {
+            "origin": "des"
+          },
+          {
+            "origin": "chèvres"
+          },
+          {
+            "origin": "etc"
+          },
+          {
+            "origin": "au"
+          },
+          {
+            "origin": "zoo"
+          }
+        ]
+      },
+      {
+        "response": 6,
+        "rbs": [
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "chat"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "sakura"
+          },
+          {
+            "origin": "dort"
+          },
+          {
+            "origin": "au-dessus"
+          },
+          {
+            "origin": "du"
+          },
+          {
+            "origin": "climatiseur"
+          },
+          {
+            "origin": "des"
+          },
+          {
+            "origin": "toilettes"
+          }
+        ]
+      },
+      {
+        "response": 7,
+        "rbs": [
+          {
+            "origin": "kakashi"
+          },
+          {
+            "origin": "mange"
+          },
+          {
+            "origin": "avec"
+          },
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "dos"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "la"
+          },
+          {
+            "origin": "cuillère"
+          }
+        ]
+      },
+      {
+        "response": 8,
+        "rbs": [
+          {
+            "origin": "sakura"
+          },
+          {
+            "origin": "et"
+          },
+          {
+            "origin": "sasuke"
+          },
+          {
+            "origin": "nagent"
+          },
+          {
+            "origin": "dans"
+          },
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "lac"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "konoha"
           }
         ]
       }
