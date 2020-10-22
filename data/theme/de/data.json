@@ -22,6 +22,259 @@
             "onHoverAlternate": "学校"
           }
         ]
+      },
+      {
+        "question": 2,
+        "wbs": [
+          {
+            "origin": "les"
+          },
+          {
+            "origin": "poissons",
+            "onHover": "さかな",
+            "onHoverAlternate": "魚"
+          },
+          {
+            "origin": "nagent",
+            "onHover": "およぐ",
+            "onHoverAlternate": "泳ぐ"
+          },
+          {
+            "origin": "dans"
+          },
+          {
+            "origin": "la"
+          },
+          {
+            "origin": "mer",
+            "onHover": "うみ",
+            "onHoverAlternate": "海"
+          }
+        ]
+      },
+      {
+        "question": 3,
+        "wbs": [
+          {
+            "origin": "sasuke",
+            "onHover": "サスケ"
+          },
+          {
+            "origin": "mange",
+            "onHover": "たべる",
+            "onHoverAlternate": "食べる"
+          },
+          {
+            "origin": "devant",
+            "onHover": "まえ",
+            "onHoverAlternate": "前"
+          },
+          {
+            "origin": "la"
+          },
+          {
+            "origin": "télévision",
+            "onHover": "テレビ"
+          }
+        ]
+      },
+      {
+        "question": 4,
+        "wbs": [
+          {
+            "origin": "les"
+          },
+          {
+            "origin": "chats",
+            "onHover": "ねこ",
+            "onHoverAlternate": "猫"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "sakura",
+            "onHover": "サクラ"
+          },
+          {
+            "origin": "pleurent",
+            "onHover": "なく",
+            "onHoverAlternate": "泣く"
+          },
+          {
+            "origin": "derrière",
+            "onHover": "あと",
+            "onHoverAlternate": "後"
+          },
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "lit",
+            "onHover": "ベッド"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "naruto",
+            "onHover": "ナルト"
+          }
+        ]
+      },
+      {
+        "question": 5,
+        "wbs": [
+          {
+            "origin": "kakashi",
+            "onHover": "カカシ"
+          },
+          {
+            "origin": "lit",
+            "onHover": "よむ",
+            "onHoverAlternate": "読む"
+          },
+          {
+            "origin": "à coté",
+            "onHover": "よこ",
+            "onHoverAlternate": "横"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "naruto",
+            "onHover": "ナルト"
+          }
+        ]
+      },
+      {
+        "question": 6,
+        "wbs": [
+          {
+            "origin": "guigui",
+            "onHover": "ぎぎ"
+          },
+          {
+            "origin": "parle",
+            "onHover": "はなす",
+            "onHoverAlternate": "話す"
+          },
+          {
+            "origin": "en"
+          },
+          {
+            "origin": "japonais",
+            "onHover": "にほんご",
+            "onHoverAlternate": "日本語"
+          },
+          {
+            "origin": "avec"
+          },
+          {
+            "origin": "laurent",
+            "onHover": "ローラン"
+          }
+        ]
+      },
+      {
+        "question": 7,
+        "wbs": [
+          {
+            "origin": "naruto",
+            "onHover": "ナルト"
+          },
+          {
+            "origin": "boit",
+            "onHover": "のむ",
+            "onHoverAlternate": "飲む"
+          },
+          {
+            "origin": "entre",
+            "onHover": "ま",
+            "onHoverAlternate": "間"
+          },
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "chat",
+            "onHover": "ねこ",
+            "onHoverAlternate": "猫"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "sakura",
+            "onHover": "サクラ"
+          },
+          {
+            "origin": "et"
+          },
+          {
+            "origin": "le"
+          },
+          {
+            "origin": "chien",
+            "onHover": "いぬ",
+            "onHoverAlternate": "犬"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "kiba",
+            "onHover": "キバ"
+          }
+        ]
+      },
+      {
+        "question": 8,
+        "wbs": [
+          {
+            "origin": "les"
+          },
+          {
+            "origin": "amis",
+            "onHover": "ともだち",
+            "onHoverAlternate": "友達"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "kiba",
+            "onHover": "キバ"
+          },
+          {
+            "origin": "sont"
+          },
+          {
+            "origin": "aux"
+          },
+          {
+            "origin": "alentours",
+            "onHover": "まわり",
+            "onHoverAlternate": "周り"
+          },
+          {
+            "origin": "du"
+          },
+          {
+            "origin": "cinema",
+            "onHover": "えいがかん",
+            "onHoverAlternate": "映画館"
+          },
+          {
+            "origin": "de"
+          },
+          {
+            "origin": "konoha",
+            "onHover": "コノハ",
+            "onHoverAlternate": "木ノ葉"
+          }
+        ]
       }
     ]
   },
@@ -46,6 +299,241 @@
           {
             "origin": "ねる",
             "alternate": "寝る"
+          }
+        ]
+      },
+      {
+        "response": 2,
+        "rbs": [
+          {
+            "origin": "さかな",
+            "alternate": "魚"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "うみ",
+            "alternate": "海"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "およぐ",
+            "alternate": "およぐ"
+          }
+        ]
+      },
+      {
+        "response": 3,
+        "rbs": [
+          {
+            "origin": "サスケ"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "テレビ"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "まえ",
+            "alternate": "前"
+          },
+          {
+            "origin": "たべる",
+            "alternate": "食べる"
+          }
+        ]
+      },
+      {
+        "response": 4,
+        "rbs": [
+          {
+            "origin": "サクラ"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ねこ",
+            "alternate": "猫"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "ナルト"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ベッド"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "うしろ",
+            "alternate": "後ろ"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "なく",
+            "alternate": "泣く"
+          }
+        ]
+      },
+      {
+        "response": 5,
+        "rbs": [
+          {
+            "origin": "カカシ"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "ナルト"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "よこ",
+            "alternate": "横"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "よむ",
+            "alternate": "読む"
+          }
+        ]
+      },
+      {
+        "response": 6,
+        "rbs": [
+          {
+            "origin": "ぎぎ"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "ローラン"
+          },
+          {
+            "origin": "と"
+          },
+          {
+            "origin": "にほんご",
+            "alternate": "日本語"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "はなす",
+            "alternate": "話す"
+          }
+        ]
+      },
+      {
+        "response": 7,
+        "rbs": [
+          {
+            "origin": "ナルト"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "サクラ"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ねこ",
+            "alternate": "猫"
+          },
+          {
+            "origin": "と"
+          },
+          {
+            "origin": "キバ"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "いぬ",
+            "alternate": "犬"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ま",
+            "alternate": "間"
+          },
+          {
+            "origin": "で"
+          },
+          {
+            "origin": "のむ",
+            "alternate": "飲む"
+          }
+        ]
+      },
+      {
+        "response": "８",
+        "rbs": [
+          {
+            "origin": "キバ"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "ともだち",
+            "alternate": "友達"
+          },
+          {
+            "origin": "は"
+          },
+          {
+            "origin": "コノハ",
+            "alternate": "木の葉"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "えいがかん",
+            "alternate": "映画館"
+          },
+          {
+            "origin": "の"
+          },
+          {
+            "origin": "まわり",
+            "alternate": "周り"
+          },
+          {
+            "origin": "に"
+          },
+          {
+            "origin": "いる"
           }
         ]
       }
