@@ -4,6 +4,7 @@ import { displayKanjiContext } from '../contexts/KanjiContext'
 import { displayColorContext } from '../contexts/ColorContext'
 import Button from '@material-ui/core/Button'
 import {Grid } from '@material-ui/core'
+import { WORD_COLOR } from '../models/enum/Color'
 
 export default function WordBlock(props) {
 
@@ -13,6 +14,8 @@ export default function WordBlock(props) {
   const [onHover, setonHover] = useState(false)
 
   let toDisplay = props.wb.origin;
+
+  var colorToDisplay = props.wb.type ? WORD_COLOR[props.wb.type] : 'lightgray'
 
   if(kanji)
   {
@@ -30,7 +33,7 @@ export default function WordBlock(props) {
 
   return (
    <Grid item>
-    <Button className='wordblock' style={{ backgroundColor: color ? props.wb.color ?? 'lightgray' : 'lightgray' }}
+    <Button className='wordblock' style={{ backgroundColor: color ? colorToDisplay: 'lightgray' }}
       onMouseLeave={() => {
         setonHover(!onHover)
       }} onMouseEnter={() => {

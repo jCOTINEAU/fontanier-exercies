@@ -13,14 +13,18 @@ export default function ResponseBlock(props)
     const eqkana=(lValue===props.rb.origin)
 
     let toDisplay='white';
+
+    if(lValue.length > 0 && ( props.rb.origin.substring(0,lValue.length) === lValue || (props.rb.alternate? props.rb.alternate.substring(0,lValue.length) === lValue : false )))
+    {
+        toDisplay='yellow'
+    }
+
     if((kanji && eqkanji) || (!kanji && eqkana) || (eqkana && !(props.rb.alternate) ))
     {
         toDisplay='lightgreen'
     }else if((kanji && eqkana) || (!kanji && eqkanji))
     {
         toDisplay='orange'
-    }else{
-        toDisplay='white'
     }
 
     return(
