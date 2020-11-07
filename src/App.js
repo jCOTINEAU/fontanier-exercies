@@ -74,16 +74,10 @@ export default function App() {
 
               <TopBar></TopBar>
 
-
-              <Question version={version} module={module} question={questions[activeQr]} />
-              <Response version={version} module={module} response={responses[activeQr]}></Response>
-
-
-
               <Grid container justify="center">
                 <Grid item>
                   <Button color="secondary" onClick={() => {
-                    setActiveQr(Math.abs(--activeQr % questions.length))
+                    setActiveQr(Math.abs( (--activeQr + 8) % questions.length))
                   }}>
                     précédent
               </Button>
@@ -97,8 +91,8 @@ export default function App() {
                 </Grid>
               </Grid>
 
-
-
+              <Question version={version} module={module} question={questions[activeQr]} />
+              <Response version={version} module={module} response={responses[activeQr]}></Response>
 
              </displayModuleContext.Provider>
             </displayVersionContext.Provider>
